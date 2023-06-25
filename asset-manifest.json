@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rps-react/static/css/main.a5e3579b.css",
+    "main.js": "/rps-react/static/js/main.8ceaad26.js",
+    "index.html": "/rps-react/index.html",
+    "main.a5e3579b.css.map": "/rps-react/static/css/main.a5e3579b.css.map",
+    "main.8ceaad26.js.map": "/rps-react/static/js/main.8ceaad26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e3579b.css",
+    "static/js/main.8ceaad26.js"
+  ]
+}
