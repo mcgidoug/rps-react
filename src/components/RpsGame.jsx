@@ -9,7 +9,7 @@ const RpsGame = () => {
   const [showResult, setShowResult] = useState(false);
 
   const handleUserInput = (event) => {
-    const userChoiceInput = event.target.value;
+    const userChoiceInput = event.target.value.toLowerCase();
     setUserChoice(userChoiceInput);
   };
 
