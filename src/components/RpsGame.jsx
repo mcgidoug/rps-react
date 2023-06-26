@@ -21,6 +21,12 @@ const RpsGame = () => {
     setComputerChoice(cpuFinalGuess);
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      handleStartClick();
+    }
+  };
+
   return (
     <div className="RpsGame">
       <h1>Welcome to RPS!</h1>
@@ -28,7 +34,7 @@ const RpsGame = () => {
         <b>Input:</b> "rock", "paper", or "scissors"
       </p>
       {/* store user input */}
-      <UserInput handleUserInput={handleUserInput} />
+      <UserInput handleUserInput={handleUserInput} onKeyDown={handleKeyPress} />
       {/* start game with button */}
       <StartGame startClick={handleStartClick} />
       {/* results comparison */}
